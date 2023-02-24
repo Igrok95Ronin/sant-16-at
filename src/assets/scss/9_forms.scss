@@ -1,0 +1,7 @@
+.forms__title {
+    @include h2Title;
+}
+.forms__button {
+    @include btn;
+    font-size: 20px;
+}
