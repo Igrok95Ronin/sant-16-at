@@ -6,9 +6,9 @@ a{
     display: inline-block;
 }
 ul,li,h1,h2,h3,p{
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style-position: inside;
 }
 .container {
     max-width: 1100px;
@@ -50,5 +50,40 @@ body{
     &:hover{
         color: #fff;
         background-color: rgb(5, 50, 89);
+        span{
+            position: relative;
+            &::before {
+                background-image: url("../icons/telephone-fill.svg");
+            }
+        }
+    }
+}
+@mixin h2Title {
+    color: rgba(25,109,182,1);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    span{
+    position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 2px;
+            background-color: #45e783;
+            left: -120px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 2px;
+            background-color: #45e783;
+            right: -120px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
     }
 }

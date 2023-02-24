@@ -1,0 +1,27 @@
+.installer {
+}
+.installer__title {
+    @include h2Title;
+}
+.installer__txt {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.installer__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.installer__left {
+}
+.installer__img {
+    width: 100%;
+}
+.installer__right {
+}
+.installer__ul {
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 20px;
+}
