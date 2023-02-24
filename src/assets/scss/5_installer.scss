@@ -3,10 +3,18 @@
 .installer__title {
     @include h2Title;
 }
+.installer__title2{
+    @include h2Title;
+    margin-bottom: 30px;
+}
 .installer__txt {
     text-align: center;
     font-weight: 600;
     margin-bottom: 30px;
+}
+.installer__txt2 {
+    margin-bottom: 30px;
+    line-height: 25px;
 }
 .installer__box {
     display: grid;
@@ -17,6 +25,9 @@
 }
 .installer__img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 .installer__right {
 }
