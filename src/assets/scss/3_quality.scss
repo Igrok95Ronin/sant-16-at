@@ -1,0 +1,27 @@
+.quality {
+    background-color: rgb(25, 109, 182);
+    padding: 5px 0;
+    color: #fff;
+}
+.quality__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.quality__left {
+}
+.quality__ul {
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 25px;
+}
+.quality__right {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality__btn {
+    @include btn;
+}
