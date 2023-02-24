@@ -1,0 +1,22 @@
+.repairInstallation {
+    margin: 30px 0;
+}
+.repairInstallation__box {
+    background-color: #e3e3e3;
+    padding: 30px;
+
+}
+.repairInstallation__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 32px;
+}
+.repairInstallation__inner {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.repairInstallation__img {
+    width: 100%;
+}
