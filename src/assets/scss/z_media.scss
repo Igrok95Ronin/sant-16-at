@@ -1,0 +1,53 @@
+@media(max-width: 767px) {
+    .forms__title span::before,
+    .installer__title span::before,
+    .cleaning__title span::before,
+    .installer__title2 span::before {
+        left: 0;
+        top: 120%;
+    }
+    .forms__title span::after,
+    .installer__title span::after,
+    .cleaning__title span::after,
+    .installer__title2 span::after {
+        right: 0;
+        top: 120%;
+    }
+    .mainIgm__box,
+    .repairInstallation__inner,
+    .installer__box,
+    .cleaning__box {
+        grid-template-columns: 1fr;
+    }
+    .mainIgm__img:nth-child(1) {
+        display: none;
+    }
+    .quality__box {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .repairInstallation__box {
+        padding: 30px 10px;
+    }
+    .installer__txt {
+        margin-top: 20px;
+    }
+    .callUs__box {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+}
+@media(max-width: 425px) {
+    .comment__txt {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0;
+    }
+    footer{
+        margin-bottom: 40px;
+    }
+    .fixed {
+        display: block;
+    }
+}
